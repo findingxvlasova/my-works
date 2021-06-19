@@ -1,28 +1,16 @@
-/*1.	Написать функцию генерирования пин кода(4 цифры), 
-простого пароля (6-10 символов, цифры и буквы в разных регистрах), 
-сложного пароля (8-14 символов, все, что есть на клавиатуре)*/
 #include <iostream>
 #include <time.h>
 #pragma warning(disable:4996)
 
 using namespace std;
 
-
 void Pin(int pin[])
 {
-	
-
 	for (int i = 0; i < 4 ; i++)
-	{
 		pin[i] = rand() % 10;
-	}
-	
 	for (int i = 0; i < 4; i++)
-	{
 		cout << "ur pin is " << pin[i];
-	}
 }
-
 	
 void LitePass()
 {
