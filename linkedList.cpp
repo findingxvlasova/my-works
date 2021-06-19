@@ -1,19 +1,3 @@
-создать шаблонную структуру, которая будет обеспечивать хранение данных в односвязном списке.
-написать шаблонные функции:
-+ для добавления элемента в конец списка
-+ для получения элемента списка по индексу (итый элемент)
-+ для удаления последнего элемента списка
-- для вывода всей цепочки на экран
-
-Для тех, кто хочет хорошую оценку:
-+I перегрузить оператор []
-+ добавить функцию, которая будет удалять элемент списка по индексу
-+ добавить функцию, которая будет вставлять элемент в середину списка, по индексу
-
-
-! важно ! в мейне проверять что все это работает и работает так, как надо
-
-
 #include <iostream>
 
 using namespace std;
@@ -75,8 +59,7 @@ List<whateverUWant>::~List()
 template<class whateverUWant>
 void List<whateverUWant>::pushFront(whateverUWant data)
 {
-	previousElementpreviousElement
-
+	
 }
 
 template<class whateverUWant>
@@ -231,20 +214,5 @@ int main()
 	{
 		cout << lst[i] << " ";
 	}
-
-	/*
-	
-	int getSize() { return size; }
-	whateverUWant& operator[](const int index);
-
-	+void pushFront(whateverUWant data);
-	+void pushBack(whateverUWant data);
-	+void popFront();
-	+void popBack();
-	void insert(whateverUWant val, int idx);
-	void removeAt(int idx);
-	void clear();
-	*/
-
 
 }
