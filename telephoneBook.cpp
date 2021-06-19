@@ -17,7 +17,6 @@ struct phoneBook
 
 
 /*
-
 bool Checkemail(char* text)
 {
 	int checker = 0, isob, itoch;
@@ -126,7 +125,6 @@ void Add(phoneBook*& arr, int& size)
 	}*/
 	system("cls");
 	size++;
-
 }
 
 

@@ -1,2 +1,3 @@
 # my-works
-my python project
+my c++ studying projects
+
